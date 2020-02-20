@@ -1,0 +1,312 @@
+html {
+	max-width:1800px;
+	background:white;
+	margin:0 auto;
+}
+body {
+	width:100%;
+	margin:0 auto;
+	padding:0 auto;
+	font-family:"Helvetica Neue", "Arial", sans-serif;
+}
+header {
+	background-image:url("images/background.jpg");
+	width:100%;
+	margin:0 auto;
+	padding:0 auto;
+}
+ul {
+	padding:20px;
+	margin:80px 0px 0px 0px;
+	text-align:center;
+}
+li {
+	display:inline-block;
+	margin:10px 5% 10px 20px;
+	font-size:20px;
+	font-family:"Helvetica Neue", "Arial", sans-serif;
+	color:white;
+	padding:5px 2% 10px 5px;
+}
+nav li:active {
+	text-decoration:underline;
+}
+.active {
+	text-decoration:underline;
+}
+ul li:hover {
+	color:RGB(230,230,230);
+}
+.center {
+	text-align:center;
+}
+.toptext {
+	color:white;
+	display:inline-block;
+}
+.news {
+	width: 40%;
+	padding:20px
+}
+section {
+	background-color:white;
+}
+a:link {
+	text-decoration:none;
+}
+
+/* index.html */
+.imgindex {
+width:50%;
+float:left;
+margin-right:20px;
+}
+
+.news {
+	width:80%;
+	overflow:hidden;
+	padding:10px;
+	margin:15px;
+	background-color:RGB(230,230,230);
+	border:1px solid RGB(210,210,210);
+}
+
+/* Schedule Plan */
+
+.schedulediv {
+	background-color:RGB(230,230,230);
+	border:1px solid RGB(210,210,210);
+	padding:10px;
+	margin:15px;
+	overflow:hidden;
+	width:60%;
+}
+.imgschedule {
+	width:40%;
+	float:right;
+	margin-left:20px;
+	padding:5px;
+}
+.intro {
+	width:40%;
+	padding: 20px;
+}
+#fetchingSection {
+	background-color:RGB(230,230,230);
+	border:1px solid RGB(210,210,210);
+	float:right;
+	padding:10px;
+	margin:20px;
+	font-size:15px;
+	
+}
+/* about */
+.aboutdiv {
+	overflow:hidden;
+	padding:20px 10px 20px 0px;
+}
+.aboutimg {
+	width:40%;
+	float:left;
+	padding:10px 15px 10px 0;
+}
+
+
+/* contact us */
+
+.error{
+    color: red;
+    display: none;
+}
+.col-sm-12{
+    padding: 0px;
+}
+.m-t-30{
+    margin-top: 30px;
+}
+#submitContact {
+    height: 40px;
+    background-color: white;
+    padding:5px;
+    margin:5px;
+    font-size: 20px;
+    border:1px solid black;
+}
+#contactform {
+	background-color:	RGB(230,230,230);
+	border:1px solid RGB(210,210,210);
+	padding: 20px;
+	margin:15px 0px 15px 0px;
+	width:55%;
+}
+#fullName {
+	width:350px;
+	height:15px;
+}
+#email{
+	width:350px;
+	height:15px;
+}
+#message {
+	width:350px;
+	height:100px;
+}
+
+
+footer {
+	clear:both;
+	padding:40px 0px 40px 0px;
+	text-align:center;
+	color:white;
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* desktop styles */
+@media only screen and (min-width:1025px) {
+	.dropdown {
+		visibility:hidden;
+}
+}
+
+/* tablet styles */
+
+@media only screen and (max-width:1024px) and (min-width:551px) {
+	li {
+	padding:2%;
+	margin:1%;
+	font-size:20px;
+}
+	.dropdown {
+		visibility:hidden;
+}
+/*schedule plan*/
+	#fetchingSection {
+	float:none;
+	width:50%;
+}
+	.schedulediv {
+		width:90%;
+}
+	.intro {
+	width:90%;
+	}
+	
+	.aboutimg {
+		width:60%;
+		float:none;
+	}
+}
+
+
+
+/* mobile styles */
+
+
+@media only screen and (max-width:550px) {
+		.desktop {
+		visibility:hidden;
+	}
+	
+	header {
+		height:120px;
+	}
+	
+	li {
+	margin:0;
+	font-size:15px;
+	font-family:"Helvetica Neue", "Arial", sans-serif;
+	color:black;
+	padding:2%;
+}
+	
+.dropbtn {
+  background-color: none;
+  color: black;
+  margin: 5px;
+  padding:5px;
+  font-size: 16px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+/*schedule plan*/
+	#fetchingSection {
+	float:none;
+	width:80%;
+}
+	.schedulediv {
+		width:90%;
+}
+	.imgschedule {
+	float:none;
+	width:80%;	
+	}
+	.intro {
+	width:90%;
+	}
+	
+/*contact*/	
+	#contactform {
+	width:80%;
+}
+#fullName {
+	width:200px;
+	height:15px;
+}
+#email{
+	width:200px;
+	height:15px;
+}
+#message {
+	width:200px;
+	height:50px;
+}
+
+/* index */ 
+.imgindex {
+width:90%;
+display:inline-block;
+margin:1%;	
+}
+
+/*about*/
+.aboutimg {
+	width:90%;
+	margin:1%;
+}
+}
+
+

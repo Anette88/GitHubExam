@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Contact us - Space Program Activity</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="microsite for SpaceX"/>
+		<meta name="keywords" content="space, stars, launch, schedule, rocket, spaceX, NASA, Space Activity,"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header class="headerimg">
+			<div class="center">
+				<p class="toptext">SpaceX - Space Activity around the world</p>
+			</div>
+			<div>
+				<div class="dropdown">
+  				<button class="dropbtn">Menu</button>
+  				<div class="dropdown-content">
+  					<a href="https://www.spacex.com"> <li>SpaceX</li> </a>
+						<a href="index.html"> <li>Updates</li> </a>
+						<a href="schedule.html"> <li>Schedule Plan</li> </a>
+						<a href="contact.html"> <li class="active">Contact us</li> </a>
+						<a href="about.html"> <li>About us</li> </a>
+  				</div>
+				</div>
+				<nav class="desktop">
+					<ul>
+						<a href="https://www.spacex.com"> <li>SpaceX</li> </a>
+						<a href="index.html"> <li>Updates</li> </a>
+						<a href="schedule.html"> <li>Schedule Plan</li> </a>
+						<a href="contact.html"> <li class="active">Contact us</li> </a>
+						<a href="about.html"> <li>About us</li> </a>
+					</ul>
+				</nav>		
+			</div>
+		</header>
+		<section id="sectioncontact">
+   		<div class="container" id="contactform">
+        <div class="row">
+           <div class="col-sm-12">
+           	<h1>Contact us</h1>
+            <p>Please fill out this form to contact us. We want to answer any question you have about space technology. </br>
+            	We will answer your request as soon as possible, please check your spam folder if you have not received an answer.</p>
+           </div>
+        </div>
+       	<form class="row" name="myForm" onsubmit="return validateForm()" method="post">
+         <div class="col-sm-12">
+           <br>Name: <br>
+           <input type="text" name="fullName" id="fullName">
+           <span class="error" id="fullNameError">Please enter your name</span>
+                          
+           <br>Email: <br>
+           <input type="text" name="email" id="email">
+           <span class="error" id="emailError">Please enter a correct email address</span>
+                
+           <br>Message: <br>
+           <input type="text" name="message" id="message">
+           <span class="error" id="messageError">Ops! Your message seems to have disappeared. Please write it again and press submit button</span>
+            
+           <button type="submit" id="submitContact" class="m-t-30"> Send <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+          </div>
+       	</form>
+       </div>       	   		
+			</section>
+			<footer>
+				<p>This is a microsite for SpaceX. </br>It is build to raise awareness about space program activity around the world. </p>
+				<p> For more information about SpaceX, please visit our main site wwww.spaceX.com</p>			
+			</footer>
+		<script src="scripts/contact.js"></script>
+	</body>
+</html>
+		
