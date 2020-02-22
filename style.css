@@ -222,6 +222,7 @@ li {
 }
 	
 .dropbtn {
+	background-color:transparent;
   color: white;
   margin: 5px;
   padding:5px;
