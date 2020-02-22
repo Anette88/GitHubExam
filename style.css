@@ -57,9 +57,9 @@ a:link {
 
 /* index.html */
 .imgindex {
-width:50%;
-float:left;
-margin-right:20px;
+	width:50%;
+	float:left;
+	margin-right:20px;
 }
 
 .news {
@@ -115,22 +115,22 @@ margin-right:20px;
 /* contact us */
 
 .error{
-    color: red;
-    display: none;
+  color: red;
+  display: none;
 }
 .col-sm-12{
-    padding: 0px;
+  padding: 0px;
 }
 .m-t-30{
-    margin-top: 30px;
+  margin-top: 30px;
 }
 #submitContact {
-    height: 40px;
-    background-color: white;
-    padding:5px;
-    margin:5px;
-    font-size: 20px;
-    border:1px solid black;
+  height: 40px;
+  background-color: white;
+  padding:5px;
+  margin:5px;
+  font-size: 20px;
+  border:1px solid black;
 }
 #contactform {
 	background-color:	RGB(230,230,230);
@@ -165,38 +165,38 @@ footer {
 
 /* desktop styles */
 @media only screen and (min-width:1025px) {
-	.dropdown {
-		visibility:hidden;
+.dropdown {
+	visibility:hidden;
 }
 }
 
 /* tablet styles */
 
 @media only screen and (max-width:1024px) and (min-width:551px) {
-	li {
+li {
 	padding:2%;
 	margin:1%;
 	font-size:20px;
 }
-	.dropdown {
-		visibility:hidden;
+.dropdown {
+	visibility:hidden;
 }
 /*schedule plan*/
-	#fetchingSection {
+#fetchingSection {
 	float:none;
 	width:50%;
 }
-	.schedulediv {
-		width:90%;
-}
-	.intro {
+.schedulediv {
 	width:90%;
-	}
+}
+.intro {
+	width:90%;
+}
 	
-	.aboutimg {
-		width:60%;
-		float:none;
-	}
+.aboutimg {
+	width:60%;
+	float:none;
+}
 }
 
 
@@ -205,15 +205,15 @@ footer {
 
 
 @media only screen and (max-width:550px) {
-		.desktop {
-		visibility:hidden;
-	}
+.desktop {
+	visibility:hidden;
+}
 	
-	header {
-		height:120px;
-	}
+header {
+	height:120px;
+}
 	
-	li {
+li {
 	margin:0;
 	font-size:15px;
 	font-family:"Helvetica Neue", "Arial", sans-serif;
@@ -223,11 +223,10 @@ footer {
 	
 .dropbtn {
   background-color: none;
-  color: black;
+  color: white;
   margin: 5px;
   padding:5px;
   font-size: 16px;
-  border: 1px solid white;
   cursor: pointer;
 }
 
@@ -267,19 +266,19 @@ footer {
 	float:none;
 	width:80%;
 }
-	.schedulediv {
-		width:90%;
+.schedulediv {
+	width:90%;
 }
-	.imgschedule {
+.imgschedule {
 	float:none;
 	width:80%;	
-	}
-	.intro {
+}
+.intro {
 	width:90%;
-	}
+}
 	
 /*contact*/	
-	#contactform {
+#contactform {
 	width:80%;
 }
 #fullName {
@@ -297,9 +296,9 @@ footer {
 
 /* index */ 
 .imgindex {
-width:90%;
-display:inline-block;
-margin:1%;	
+	width:90%;
+	display:inline-block;
+	margin:1%;	
 }
 
 /*about*/
