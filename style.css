@@ -104,6 +104,7 @@ a:link {
 .aboutdiv {
 	overflow:hidden;
 	padding:20px 10px 20px 0px;
+	width:90%;
 }
 .aboutimg {
 	width:40%;
@@ -151,7 +152,9 @@ a:link {
 	width:350px;
 	height:100px;
 }
-
+#sectioncontact {
+	width:90%;
+}
 
 footer {
 	clear:both;
