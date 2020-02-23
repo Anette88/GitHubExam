@@ -194,7 +194,7 @@ li {
 .aboutimg {
 	width:60%;
 	float:none;
-	}
+}
 }
 
 
@@ -219,7 +219,7 @@ li {
 }
 	
 .dropbtn {
-  background-color: none;
+	background-color:transparent;
   color: white;
   margin: 5px;
   padding:5px;
