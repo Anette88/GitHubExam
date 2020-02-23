@@ -113,7 +113,6 @@ a:link {
 
 
 /* contact us */
-
 .error{
   color: red;
   display: none;
@@ -171,7 +170,6 @@ footer {
 }
 
 /* tablet styles */
-
 @media only screen and (max-width:1024px) and (min-width:551px) {
 li {
 	padding:2%;
@@ -202,7 +200,6 @@ li {
 
 
 /* mobile styles */
-
 
 @media only screen and (max-width:550px) {
 .desktop {
@@ -262,7 +259,7 @@ li {
 }
 
 /*schedule plan*/
-	#fetchingSection {
+#fetchingSection {
 	float:none;
 	width:80%;
 }
